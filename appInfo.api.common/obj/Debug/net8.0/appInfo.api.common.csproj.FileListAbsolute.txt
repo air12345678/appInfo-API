@@ -1,0 +1,13 @@
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.AssemblyInfoInputs.cache
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.AssemblyInfo.cs
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.csproj.CoreCompileInputs.cache
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.sourcelink.json
+C:\Self Learning\appInfo-api\appInfo.api.common\bin\Debug\net8.0\appInfo.api.common.deps.json
+C:\Self Learning\appInfo-api\appInfo.api.common\bin\Debug\net8.0\appInfo.api.common.dll
+C:\Self Learning\appInfo-api\appInfo.api.common\bin\Debug\net8.0\appInfo.api.common.pdb
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.csproj.AssemblyReference.cache
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.dll
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\refint\appInfo.api.common.dll
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\appInfo.api.common.pdb
+C:\Self Learning\appInfo-api\appInfo.api.common\obj\Debug\net8.0\ref\appInfo.api.common.dll

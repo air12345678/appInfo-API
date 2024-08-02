@@ -1,0 +1,16 @@
+C:\Self Learning\appInfo-api\appInfo.api.DAL\bin\Debug\net8.0\appInfo.api.DAL.deps.json
+C:\Self Learning\appInfo-api\appInfo.api.DAL\bin\Debug\net8.0\appInfo.api.DAL.dll
+C:\Self Learning\appInfo-api\appInfo.api.DAL\bin\Debug\net8.0\appInfo.api.DAL.pdb
+C:\Self Learning\appInfo-api\appInfo.api.DAL\bin\Debug\net8.0\appInfo.api.common.dll
+C:\Self Learning\appInfo-api\appInfo.api.DAL\bin\Debug\net8.0\appInfo.api.common.pdb
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.csproj.AssemblyReference.cache
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.AssemblyInfoInputs.cache
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.AssemblyInfo.cs
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.csproj.CoreCompileInputs.cache
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.sourcelink.json
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo..D7FB3718.Up2Date
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.dll
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\refint\appInfo.api.DAL.dll
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\appInfo.api.DAL.pdb
+C:\Self Learning\appInfo-api\appInfo.api.DAL\obj\Debug\net8.0\ref\appInfo.api.DAL.dll
