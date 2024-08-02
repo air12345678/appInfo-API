@@ -27,7 +27,7 @@ namespace appInfo.api.Controllers
                     Result = resultVal.Result,
                     IsSuccess = true,
                 });
-
+            
             }
             catch (Exception ex)
             {
