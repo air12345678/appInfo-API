@@ -1,0 +1,17 @@
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.csproj.AssemblyReference.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.AssemblyInfoInputs.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.AssemblyInfo.cs
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.csproj.CoreCompileInputs.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.BLL.deps.json
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.BLL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.BLL.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.common.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.DAL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.common.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\bin\Debug\net7.0\appInfo.api.DAL.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.csproj.CopyComplete
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\refint\appInfo.api.BLL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\appInfo.api.BLL.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.BLL\obj\Debug\net7.0\ref\appInfo.api.BLL.dll
