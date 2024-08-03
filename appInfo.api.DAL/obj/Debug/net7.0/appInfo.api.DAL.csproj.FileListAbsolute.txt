@@ -1,0 +1,15 @@
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\bin\Debug\net7.0\appInfo.api.DAL.deps.json
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\bin\Debug\net7.0\appInfo.api.DAL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\bin\Debug\net7.0\appInfo.api.DAL.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\bin\Debug\net7.0\appInfo.api.common.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\bin\Debug\net7.0\appInfo.api.common.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.csproj.AssemblyReference.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.AssemblyInfoInputs.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.AssemblyInfo.cs
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.csproj.CoreCompileInputs.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.csproj.CopyComplete
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\refint\appInfo.api.DAL.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\appInfo.api.DAL.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.DAL\obj\Debug\net7.0\ref\appInfo.api.DAL.dll

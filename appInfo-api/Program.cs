@@ -21,6 +21,19 @@ builder.Services.Configure<AppInfoDatabaseSettings>(builder.Configuration.GetSec
 builder.Services.AddScoped<ITechStackBAL, TechStackBAL>();
 builder.Services.AddScoped<ITechStackDAL, TechStackDAL>();
 builder.Services.AddSingleton(configuration);
+
+// Add CORS services
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
 
 
@@ -34,12 +47,14 @@ var app = builder.Build();
 // });
 // Configure the HTTP request pipeline.
 
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Use CORS
+app.UseCors("AllowAllOrigins");
 
 app.UseHttpsRedirection();
 

@@ -1,0 +1,12 @@
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\bin\Debug\net7.0\appInfo.api.common.deps.json
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\bin\Debug\net7.0\appInfo.api.common.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\bin\Debug\net7.0\appInfo.api.common.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.csproj.AssemblyReference.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.AssemblyInfoInputs.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.AssemblyInfo.cs
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.csproj.CoreCompileInputs.cache
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\refint\appInfo.api.common.dll
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\appInfo.api.common.pdb
+C:\Users\neerajdhakad\OneDrive - Nagarro\Desktop\AppInfo\appInfo-api\appInfo.api.common\obj\Debug\net7.0\ref\appInfo.api.common.dll

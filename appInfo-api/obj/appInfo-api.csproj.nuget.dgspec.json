@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {}
+    "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {}
   },
   "projects": {
-    "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {
+    "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
+        "projectUniqueName": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
         "projectName": "appInfo-api",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
-        "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo-api\\obj\\",
+        "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
+        "packagesPath": "C:\\Users\\neerajdhakad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\neerajdhakad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj"
+              "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
+                "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj"
               },
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               }
             }
           }
@@ -39,16 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
@@ -78,37 +75,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
+    "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
         "projectName": "appInfo.api.BLL",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
-        "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\obj\\",
+        "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
+        "packagesPath": "C:\\Users\\neerajdhakad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\neerajdhakad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               },
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj"
+              "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
+                "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj"
               }
             }
           }
@@ -117,16 +116,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
@@ -149,31 +143,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+    "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
+        "projectUniqueName": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
         "projectName": "appInfo.api.common",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
-        "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\obj\\",
+        "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
+        "packagesPath": "C:\\Users\\neerajdhakad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\neerajdhakad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -181,16 +177,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
@@ -213,34 +204,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
+    "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
         "projectName": "appInfo.api.DAL",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
-        "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\obj\\",
+        "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
+        "packagesPath": "C:\\Users\\neerajdhakad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\neerajdhakad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "C:\\Users\\neerajdhakad\\OneDrive - Nagarro\\Desktop\\AppInfo\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               }
             }
           }
@@ -249,20 +242,15 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[7.0.7, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -285,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
