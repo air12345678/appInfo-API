@@ -17,9 +17,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.Configure<AppInfoDatabaseSettings>(builder.Configuration.GetSection("AppInfoDatabaseSettings"));
+builder.Services.Configure<AzureBlobSettings>(builder.Configuration.GetSection("AzureBlobSettings"));
 
 builder.Services.AddScoped<ITechStackBAL, TechStackBAL>();
 builder.Services.AddScoped<ITechStackDAL, TechStackDAL>();
+builder.Services.AddScoped<IFileUploadBAL, FileUploadBAL>();
+builder.Services.AddScoped<IFileUploadDAL, FileUploadDAL>();
+
 builder.Services.AddSingleton(configuration);
 
 // Add CORS services
