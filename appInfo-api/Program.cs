@@ -40,23 +40,20 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+app.UseSwagger();
 
-// builder.Services.AddSingleton<IMongoClient>(_ => {
-//     var connectionString = 
-//         builder
-//             .Configuration
-//             .GetSection("AppInfoDatabaseSettings:ConnectionString")?
-//             .Value;
-//     return new MongoClient(connectionString);
-// });
-// Configure the HTTP request pipeline.
-
-
-if (app.Environment.IsDevelopment())
+app.UseSwaggerUI(x =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    x.SwaggerEndpoint("/swagger/v1/swagger.json", "appInfo-api V1");
+
+if(app.Environment.IsDevelopment())
+    x.RoutePrefix = "swagger"; 
+else
+    x.RoutePrefix = string.Empty;
 }
+);
+
+app.UseSwagger();
 
 // Use CORS
 app.UseCors("AllowAllOrigins");
