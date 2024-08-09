@@ -3,8 +3,8 @@ using Azure.Storage.Blobs.Models;
 using Microsoft.AspNetCore.Http;
 namespace appInfo.API.BLL.Interfaces
 {
-    public interface ITechStackBAL
+    public interface IFileUploadBAL
     {
-        Task <HttpResponse<List<TechStack>>> GetAll();
+         Task<BlobResponseDto>UploadFiles(IFormFile files);
     }
 }

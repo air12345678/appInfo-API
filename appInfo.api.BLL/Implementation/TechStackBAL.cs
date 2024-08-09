@@ -1,6 +1,8 @@
 using appInfo.api.common.models;
 using appInfo.API.BLL.Interfaces;
 using appInfo.API.DAL.Interfaces;
+using Azure.Storage.Blobs.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace appInfo.api.BLL.Implementation
 {
@@ -18,5 +20,6 @@ namespace appInfo.api.BLL.Implementation
             returnVal.Result = await ObjDal.GetAll();
             return returnVal;
         }
+
     }
 }

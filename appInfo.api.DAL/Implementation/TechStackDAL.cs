@@ -27,5 +27,4 @@ namespace appInfo.api.DAL.Implementation
 
     }
 
-
 }
