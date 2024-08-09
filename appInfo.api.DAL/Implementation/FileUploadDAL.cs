@@ -16,18 +16,19 @@ namespace appInfo.api.DAL.Implementation
             var blobClient = new BlobServiceClient(azureBlobSettings.Value.BlobConnectionString);
              _containerClient = blobClient.GetBlobContainerClient(azureBlobSettings.Value.BlobContainerName);
         }
-        public async Task<BlobResponseDto> UploadFiles(IFormFile file)
+        public async Task<BlobResponseDto> UploadFiles(IFormFile files)
         {
             var returnVal =  new BlobResponseDto();
             try{
-                BlobClient client =_containerClient.GetBlobClient(file.FileName);
-                await using(Stream? data = file.OpenReadStream())
+                BlobClient client =_containerClient.GetBlobClient(files.FileName);
+                await using(Stream? data = files.OpenReadStream())
                 {
                     await client.UploadAsync(data);
                 }
-                returnVal.Status = $"File{file.FileName} uploaded Successfully";
+                returnVal.Status = $"File{files.FileName} uploaded Successfully";
                 returnVal.Error = false;
                 returnVal.Blob.Uri = client.Uri;
+                returnVal.Blob.Name = files.FileName;
             }
             catch(Exception ex){
                 returnVal.Status = $"File is not uploaded successfully :{ex.Message}";
