@@ -4,12 +4,8 @@ using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 namespace appInfo.API.BLL.Interfaces
 {
-    public interface IFileUploadBAL
+    public interface IApplicationDetailBAL
     {
-     //    ImageUploadResult UploadFiles(IFormFile files);
-
-        Task<BlobResponseDto>UploadFiles(IFormFile files);
-
-
+     Task AddApplicationDetails(ApplicationInfoDataSetDto filter);
     }
 }

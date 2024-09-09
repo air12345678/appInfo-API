@@ -3,8 +3,7 @@ using appInfo.api.common.models;
 using appInfo.api.DAL.Implementation;
 using appInfo.API.BLL.Interfaces;
 using appInfo.API.DAL.Interfaces;
-using Microsoft.Extensions.Options;
-using MongoDB.Driver;
+
 var builder = WebApplication.CreateBuilder(args);
 IConfigurationRoot configuration = new ConfigurationBuilder()
                             .SetBasePath(Directory.GetCurrentDirectory())
@@ -18,11 +17,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.Configure<AppInfoDatabaseSettings>(builder.Configuration.GetSection("AppInfoDatabaseSettings"));
 builder.Services.Configure<AzureBlobSettings>(builder.Configuration.GetSection("AzureBlobSettings"));
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+
 
 builder.Services.AddScoped<ITechStackBAL, TechStackBAL>();
 builder.Services.AddScoped<ITechStackDAL, TechStackDAL>();
 builder.Services.AddScoped<IFileUploadBAL, FileUploadBAL>();
 builder.Services.AddScoped<IFileUploadDAL, FileUploadDAL>();
+builder.Services.AddScoped<IApplicationDetailBAL, ApplicationInfoDetailBAL>();
+builder.Services.AddScoped<IApplicationDetailDAL, ApplicationInfoDetailDAL>();
 
 builder.Services.AddSingleton(configuration);
 

@@ -5,5 +5,6 @@ namespace appInfo.api.common.models
         public string? ConnectionString { get; set; }
         public string? DatabaseName { get; set; }
         public string? TechStackCollectionName { get; set; }
+        public string? ApplicationInfoCollectionName { get; set; }
     }
 }

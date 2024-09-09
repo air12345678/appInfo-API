@@ -4,7 +4,7 @@
 /appInfo-api/obj
 /appInfo.api.BLL/bin/Debug/net8.0
 /appInfo.api.BLL/obj
-/appInfo.api.Common/bin/Debug/net8.0
-/appInfo.api.Common/obj
+/appInfo.api.common/bin/Debug/net8.0
+/appInfo.api.common/obj
 /appInfo.api.DAL/bin/Debug/net8.0
 /appInfo.api.DAL/obj
