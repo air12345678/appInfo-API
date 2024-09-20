@@ -6,6 +6,6 @@ namespace appInfo.API.BLL.Interfaces
 {
     public interface IApplicationDetailBAL
     {
-     Task AddApplicationDetails(ApplicationInfoDataSetDto filter);
+     public  Task<HttpResponse<object>> AddApplicationDetails(ApplicationInfoDataSetDto filter);
     }
 }

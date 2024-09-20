@@ -9,9 +9,9 @@ namespace appInfo.api.common.models
         public string RolesName { get; set; } = string.Empty;
         public string ApplicationSMEName { get; set; } = string.Empty;
         public string ApplicationType { get; set; } = string.Empty;
-        public DatabaseDetail? Databases {get;set;}
+        public IDictionary<string, string>? Databases {get;set;} = new Dictionary<string,string>();
         public string[]? TechStack {get;set;}
-        public RepoistoryDetails? GitRepoistoryPath {get;set;}
+        public IDictionary<string, string>? GitRepoistoryPath {get;set;} = new Dictionary<string,string>();
         public string ApplicationURL {get;set;} = string.Empty;
         public string SharepointLink {get;set;} = string.Empty;
         public string ExcelLink {get;set;} = string.Empty;

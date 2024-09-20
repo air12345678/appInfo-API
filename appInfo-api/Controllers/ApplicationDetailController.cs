@@ -18,46 +18,37 @@ namespace appInfo.api.Controllers
         }
 
         [HttpPost, Route("saveApplicationDataset")]
-        public async Task<bool> SaveApplicationDataSet([FromBody] ApplicationInfoDataSetDto requestPayload)
+        public async Task<IActionResult> SaveApplicationDataSet([FromBody] ApplicationInfoDataSetDto requestPayload)
         {
-            bool result = false;
             try
             {
-                // if(requestPayload == null){
-                // return BadRequest("Invalid data");
-                // }
-              await ObjBal.AddApplicationDetails(new ApplicationInfoDataSetDto
+                if (requestPayload == null)
+                {
+                    return BadRequest("Invalid data");
+                }
+                var result = await ObjBal.AddApplicationDetails(new ApplicationInfoDataSetDto
                 {
                     ApplicationName = requestPayload.ApplicationName,
                     RolesName = requestPayload.RolesName,
                     ApplicationSMEName = requestPayload.ApplicationSMEName,
                     ApplicationType = requestPayload.ApplicationType,
-                    Databases = new DatabaseDetail
-                    {
-                        DatabaseName = requestPayload.Databases?.DatabaseName,
-                        ServerName = requestPayload.Databases?.ServerName
-                    },
+                    Databases = requestPayload.Databases,
                     TechStack = requestPayload.TechStack,
-                    GitRepoistoryPath = new RepoistoryDetails
-                    {
-                        ClientURL = requestPayload.GitRepoistoryPath?.ClientURL,
-                        APIURL = requestPayload.GitRepoistoryPath?.APIURL
-                    },
+                    GitRepoistoryPath = requestPayload.GitRepoistoryPath,
                     ApplicationURL = requestPayload.ApplicationURL,
                     SharepointLink = requestPayload.SharepointLink,
                     ExcelLink = requestPayload.ExcelLink
                 });
-                 result = true;
-                 
-               // return CreatedAtAction();
+                return Ok(new HttpResponse<object>
+                {
+                    IsSuccess = true,
+                });
             }
             catch (Exception ex)
             {
-                result = false;
-                Console.WriteLine(ex.Message);
-               // return StatusCode(StatusCodes.Status500InternalServerError, $"Internal server error: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Internal server error: {ex.Message}");
             }
-            return result;
+
         }
     }
 
