@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {}
+    "c:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {}
   },
   "projects": {
-    "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {
+    "c:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
+        "projectUniqueName": "c:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
         "projectName": "appInfo-api",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
+        "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo-api\\appInfo-api.csproj",
         "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo-api\\obj\\",
+        "outputPath": "c:\\Self Learning\\appInfo-api\\appInfo-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj"
+              "c:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
+                "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj"
               },
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
+    "c:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
+        "projectUniqueName": "c:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
         "projectName": "appInfo.api.BLL",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
+        "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\appInfo.api.BLL.csproj",
         "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\obj\\",
+        "outputPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               },
               "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
                 "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj"
@@ -169,14 +169,14 @@
         }
       }
     },
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+    "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
+        "projectUniqueName": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
         "projectName": "appInfo.api.common",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
+        "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
         "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\obj\\",
+        "outputPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -259,8 +259,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               }
             }
           }
