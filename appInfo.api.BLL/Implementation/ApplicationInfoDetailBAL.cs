@@ -53,9 +53,9 @@ namespace appInfo.api.BLL.Implementation
                 modelState.Add(nameof(detailParams.ApplicationType), new[] { "The value of ApplicationType is required." });
             }
 
-            if (string.IsNullOrEmpty(detailParams?.ApplicationURL) && Uri.IsWellFormedUriString(detailParams?.ApplicationURL, UriKind.Absolute))
+            if (string.IsNullOrEmpty(detailParams?.ApplicationURL) || !Uri.IsWellFormedUriString(detailParams?.ApplicationURL, UriKind.Absolute))
             {
-                modelState.Add(nameof(detailParams.ApplicationURL), new[] { "The value of ApplicationURL is required." });
+                modelState.Add(nameof(detailParams.ApplicationURL), new[] { "The value of ApplicationURL is required/must be a valid URL." });
             }
 
             if (detailParams.Databases.Any())
@@ -78,9 +78,9 @@ namespace appInfo.api.BLL.Implementation
                 }
             }
 
-            if (string.IsNullOrEmpty(detailParams?.ExcelLink) && Uri.IsWellFormedUriString(detailParams?.ExcelLink, UriKind.Absolute))
+            if (string.IsNullOrEmpty(detailParams?.ExcelLink) || !Uri.IsWellFormedUriString(detailParams?.ExcelLink, UriKind.Absolute))
             {
-                modelState.Add(nameof(detailParams.ExcelLink), new[] { "The value of ExcelLink is required." });
+                modelState.Add(nameof(detailParams.ExcelLink), new[] { "The value of ExcelLink is required/must be a valid URL." });
             }
 
             if (detailParams.GitRepoistoryPath != null && detailParams.GitRepoistoryPath.Any())
@@ -110,9 +110,9 @@ namespace appInfo.api.BLL.Implementation
                 modelState.Add(nameof(detailParams.RolesName), new[] { "The value of RolesName is required." });
             }
 
-            if (string.IsNullOrEmpty(detailParams?.SharepointLink))
+            if (string.IsNullOrEmpty(detailParams?.SharepointLink) || !Uri.IsWellFormedUriString(detailParams?.SharepointLink, UriKind.Absolute))
             {
-                modelState.Add(nameof(detailParams.SharepointLink), new[] { "The value of SharepointLink is required." });
+                modelState.Add(nameof(detailParams.SharepointLink), new[] { "The value of SharepointLink is required/must be a valid URL." });
             }
 
             if (modelState.Any())

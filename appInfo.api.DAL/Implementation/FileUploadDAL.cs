@@ -21,6 +21,7 @@ namespace appInfo.api.DAL.Implementation
             var returnVal =  new BlobResponseDto();
             try{
                 BlobClient client =_containerClient.GetBlobClient(files.FileName);
+                await client.DeleteIfExistsAsync();
                 await using(Stream? data = files.OpenReadStream())
                 {
                     await client.UploadAsync(data);
@@ -31,7 +32,7 @@ namespace appInfo.api.DAL.Implementation
                 returnVal.Blob.Name = files.FileName;
             }
             catch(Exception ex){
-                returnVal.Status = $"File is not uploaded successfully :{ex.Message}";
+                returnVal.Status = $"File is not uploaded :{ex.Message}";
                 returnVal.Error = true;
                 return returnVal;
             }

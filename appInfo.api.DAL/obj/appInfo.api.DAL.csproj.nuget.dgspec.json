@@ -4,14 +4,14 @@
     "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+    "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
+        "projectUniqueName": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
         "projectName": "appInfo.api.common",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
+        "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj",
         "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\obj\\",
+        "outputPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
-                "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
+              "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
+                "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj"
               }
             }
           }
