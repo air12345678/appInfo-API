@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISMCRd7FrQY=",
+  "dgSpecHash": "AdgQaGgxaCc=",
   "success": true,
-  "projectFilePath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
+  "projectFilePath": "c:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaushalagrawal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\kaushalagrawal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

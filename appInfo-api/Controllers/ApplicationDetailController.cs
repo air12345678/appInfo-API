@@ -18,7 +18,7 @@ namespace appInfo.api.Controllers
         }
 
         [HttpPost, Route("saveApplicationDataset")]
-        public async Task<IActionResult> SaveApplicationDataSet([FromBody] ApplicationInfoDataSetDto requestPayload)
+        public async Task<IActionResult> SaveApplicationDataSet([FromBody] ApplicationInfoDataSetWithDto requestPayload)
         {
             try
             {
@@ -26,7 +26,7 @@ namespace appInfo.api.Controllers
                 {
                     return BadRequest("Invalid data");
                 }
-                var result = await ObjBal.AddApplicationDetails(new ApplicationInfoDataSetDto
+                var result = await ObjBal.AddApplicationDetails(new ApplicationInfoDataSetWithDto
                 {
                     ApplicationName = requestPayload.ApplicationName,
                     RolesName = requestPayload.RolesName,
@@ -49,6 +49,30 @@ namespace appInfo.api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Internal server error: {ex.Message}");
             }
 
+        }
+
+        [HttpGet, Route("GetAllApplicationDetails")]
+        public async Task<IActionResult> GetAllApplicationDetails()
+        {
+            try
+            {
+                var resultVal = await ObjBal.GetAllApplicationDetails();
+                return this.Ok(new HttpResponse<List<ApplicationInfoDataSetWithDto>>
+                {
+                    Result = resultVal.Result,
+                    IsSuccess = true,
+                });
+
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, new HttpResponse<List<ApplicationInfoDataSetDto>>
+                {
+                    Result = null,
+                    IsSuccess = false,
+                    Errors = ex.Message
+                });
+            }
         }
     }
 

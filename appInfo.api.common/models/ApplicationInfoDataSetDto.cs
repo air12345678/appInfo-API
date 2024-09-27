@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+using CloudinaryDotNet.Actions;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
@@ -15,5 +17,11 @@ namespace appInfo.api.common.models
         public string ApplicationURL {get;set;} = string.Empty;
         public string SharepointLink {get;set;} = string.Empty;
         public string ExcelLink {get;set;} = string.Empty;
+    }
+
+    public class ApplicationInfoDataSetWithDto : ApplicationInfoDataSetDto{
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string? _id { get; set; }
     }
 }

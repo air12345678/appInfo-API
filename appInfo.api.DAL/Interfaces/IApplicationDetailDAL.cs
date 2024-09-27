@@ -3,7 +3,8 @@ namespace appInfo.API.DAL.Interfaces
 {
     public interface IApplicationDetailDAL
     {
-        Task AddApplicationDetails(ApplicationInfoDataSetDto filter);
+        Task AddApplicationDetails(ApplicationInfoDataSetWithDto filter);
+         Task <List<ApplicationInfoDataSetWithDto>> GetAllApplicationDetails();
     }
 
 }

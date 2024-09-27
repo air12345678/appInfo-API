@@ -15,9 +15,7 @@ namespace appInfo.api.BLL.Implementation
         {
             ObjDal = _objDal;
         }
-
-
-        public async Task<HttpResponse<object>> AddApplicationDetails(ApplicationInfoDataSetDto detailParams)
+        public async Task<HttpResponse<object>> AddApplicationDetails(ApplicationInfoDataSetWithDto detailParams)
         {
             var Result = new HttpResponse<object>();
             try
@@ -34,7 +32,12 @@ namespace appInfo.api.BLL.Implementation
             }
             return Result;
         }
-
+        public async Task <HttpResponse<List<ApplicationInfoDataSetWithDto>>> GetAllApplicationDetails()
+        {
+             var returnVal = new HttpResponse<List<ApplicationInfoDataSetWithDto>>();
+            returnVal.Result = await ObjDal.GetAllApplicationDetails();
+            return returnVal;
+        }
         private async Task<bool> ValidateApplicationInfoRequestPayload(ApplicationInfoDataSetDto detailParams)
         {
             var modelState = new Dictionary<string, string[]>();

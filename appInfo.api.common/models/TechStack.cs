@@ -7,7 +7,7 @@ namespace appInfo.api.common.models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string _id { get; set; }
+        public string? _id { get; set; }
         public string? TechStackName { get; set; }
 
         public string? logo { get; set; }

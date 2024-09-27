@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {}
+    "c:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {}
   },
   "projects": {
     "c:\\Self Learning\\appInfo-api\\appInfo.api.common\\appInfo.api.common.csproj": {
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
+    "c:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
+        "projectUniqueName": "c:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
         "projectName": "appInfo.api.DAL",
-        "projectPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
+        "projectPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\appInfo.api.DAL.csproj",
         "packagesPath": "C:\\Users\\kaushalagrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\obj\\",
+        "outputPath": "c:\\Self Learning\\appInfo-api\\appInfo.api.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaushalagrawal\\AppData\\Roaming\\NuGet\\NuGet.Config"
